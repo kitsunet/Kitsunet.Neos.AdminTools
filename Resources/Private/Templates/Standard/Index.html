@@ -1,0 +1,23 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<f:layout name="BackendSubModule" />
+
+<f:section name="content">
+	<f:form action="clearContentCache">
+		<fieldset>
+			<f:form.submit value="Clear Content Cache" class="neos-button neos-button-primary" />
+		</fieldset>
+		</div>
+	</f:form>
+	<f:form action="createChildNodes">
+		<fieldset>
+			<div class="neos-control-group">
+				<label class="neos-control-label">Workspace</label>
+				<div class="neos-controls">
+					<span class="neos-span12 neos-uneditable-input"><f:form.select name="workspace" options="{workspaces}" prependOptionLabel="--All--" prependOptionValue="" /></span>
+				</div>
+			</div>
+			<f:form.submit value="Add missing child nodes" class="neos-button neos-button-primary" />
+		</fieldset>
+		</div>
+	</f:form>
+</f:section>

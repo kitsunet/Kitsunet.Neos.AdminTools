@@ -1,0 +1,8 @@
+-
+  requestFilter: 'parentRequest.isPackage("TYPO3.Neos") && (isController("Standard") && isPackage("Kitsunet.Neos.AdminTools"))'
+  options:
+    layoutRootPaths:
+      'TYPO3.Neos': 'resource://TYPO3.Neos/Private/Layouts'
+    partialRootPaths:
+      'TYPO3.Neos': 'resource://TYPO3.Neos/Private/Partials'
+      'Kitsunet.Neos.AdminTools': 'resource://Kitsunet.Neos.AdminTools/Private/Partials'

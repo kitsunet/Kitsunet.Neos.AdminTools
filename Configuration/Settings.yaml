@@ -1,0 +1,15 @@
+TYPO3:
+  Neos:
+    modules:
+      administration:
+        submodules:
+          admintools:
+            label: 'Admin Tools'
+            controller: '\Kitsunet\Neos\AdminTools\Controller\StandardController'
+            description: 'Some helpers to do things that you normally would need the command line for.'
+            icon: 'icon-cog'
+            actions:
+              index:
+                label: 'Overview'
+                title: 'Overview of all tools'
+            resource: 'TYPO3_Neos_Backend_Module_Administration_Users'

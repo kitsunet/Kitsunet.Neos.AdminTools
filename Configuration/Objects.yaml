@@ -1,0 +1,9 @@
+'Kitsunet\Neos\AdminTools\Controller\StandardController':
+  properties:
+    contentCache:
+      object:
+        factoryObjectName: TYPO3\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: TYPO3_TypoScript_Content

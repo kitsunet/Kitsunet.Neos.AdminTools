@@ -1,0 +1,8 @@
+resources:
+  methods:
+    Kitsunet_Neos_AdminTools_AllControllerActions: 'within(Kitsunet\Neos\AdminTools\Controller\StandardController) && method(public .*->(?!initialize).*Action())'
+
+acls:
+  'TYPO3.Neos:Administrator':
+    methods:
+      Kitsunet_Neos_AdminTools_AllControllerActions: GRANT

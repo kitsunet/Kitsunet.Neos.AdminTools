@@ -1,4 +1,4 @@
 Kitsunet.Neos.AdminTools
 ========================
 
-WIP collection of admin tools for TYPO3 Neos
+Deprecated in favor of https://github.com/flownative/neos-cachemanagement
